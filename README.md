@@ -59,8 +59,8 @@ Vous pouvez maintenant accéder au serveur à l' adresse [https://localhost:8000
 ### Liste des commandes TL; DR
 
 ```bash
-git clone https://github.com/abdoul-rb/api-lafia-1.0
-cd api-lafia-1.0
+git clone https://git@github.com:abdoul-rb/crypto-coin.git
+cd crypto-coin
 composer install
 cp .env.example .env
 php artisan key:generate
