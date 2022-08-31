@@ -1,0 +1,21 @@
+@extends('layouts.app')
+
+@section('title', 'Homepage')
+
+@section('content')
+
+    <div>
+        <header>
+            <h1 class="mb-4 text-3xl font-bold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
+                Facilitez vos transactions de
+                <span class="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">cryptomonnaies</span> 
+            </h1>
+            <p class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
+                Here at now we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.
+            </p>
+        </header>
+
+        <livewire:coin-table />
+    </div>
+    
+@endsection
