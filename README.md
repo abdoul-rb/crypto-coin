@@ -37,6 +37,7 @@ cd crypto-coin
 Installez toutes les dépendances à l'aide de composer
 ```bash
 composer install
+npm install
 ```
 
 Copiez l'exemple de fichier env et modifier la configuration requises
@@ -52,6 +53,7 @@ php artisan key:generate
 Lancer le serveur de développement interne de Laravel
 ```bash
 php artisan serve
+npm run watch
 ```
 
 Vous pouvez maintenant accéder au serveur à l' adresse [https://localhost:8000](https://localhost:8000)
