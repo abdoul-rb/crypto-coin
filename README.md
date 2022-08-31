@@ -2,6 +2,8 @@
 
 ## RWEB - exercice technique
 
+https://harsh-modem-26c.notion.site/RWEB-exercice-technique-a67f31184aa84989b6ba5b60fa5813be
+
 L’objectif de cet exercice est d’afficher les informations du top 100 des cryptomonnaies (comme sur [https://coinmarketcap.com/](https://coinmarketcap.com/)). 
 
 L’utilisateur doit pouvoir cliquer sur une cryptomonnaie pour voir apparaitre une vue détaillée.
@@ -12,7 +14,7 @@ Stack technique à utiliser :
 - Livewire ([https://laravel-livewire.com/](https://laravel-livewire.com/))
 - Tailwind ([https://tailwindcss.com/](https://tailwindcss.com/))
 
-Pour obtenir les informations à afficher (logo, prix, market cap, etc) vous pouvez utiliser l’API de Coingecko : https://www.coingecko.com/en/api/documentation
+Pour obtenir les informations à afficher (logo, prix, market cap, etc) vous pouvez utiliser l’API de Coingecko : [CoinGecko API](https://www.coingecko.com/en/api/documentation)
 
 Livewire peut être utilisé pour ce que vous souhaitez, quelques idées :
 
@@ -66,6 +68,12 @@ cp .env.example .env
 php artisan key:generate
 ```
 
+## Liens utilisateur
+- [https://laravel-livewire.com/docs/2.x/quickstart](https://laravel-livewire.com/docs/2.x/quickstart)
+- [https://www.chartjs.org/docs/latest/](https://www.chartjs.org/docs/latest/)
+- [github.com/chartjs/chartjs-adapter-moment](https://github.com/chartjs/chartjs-adapter-moment)
+- [stackoverflow/convert-epoch-time-to-date-php](https://stackoverflow.com/questions/13477788/convert-epoch-time-to-date-php)
+- [stackoverflow/chart-js-creating-a-line-graph-using-dates](https://stackoverflow.com/questions/47875045/chart-js-creating-a-line-graph-using-dates)
 ## Contributing
 
 Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
